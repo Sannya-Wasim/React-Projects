@@ -1,0 +1,122 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bg {
+  /* https://webkit.org/blog/1424/css3-gradients/ */
+  background: -webkit-linear-gradient(
+    left,
+    rgb(211, 10, 94),
+    rgb(252, 128, 180)
+  );
+  border-radius: 10px;
+  height: 95vh;
+  margin: 18px;
+  display: flex;
+}
+
+.logo {
+  width: 35%;
+  height: 500px;
+  /* border: 2px solid black; */
+}
+
+.logo img {
+  /* https://www.demo2s.com/html-css/css-animate-to-move-image-up-and-down.html */
+  position: relative;
+  -webkit-animation: glide 2s ease-in-out alternate infinite;
+  width: 200px;
+}
+
+@-webkit-keyframes glide {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+
+  to {
+    left: 0px;
+    top: 20px;
+  }
+}
+
+#content {
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+}
+
+.sign {
+  background-color: white;
+  width: 60%;
+  height: 500px;
+  /* border: 2px solid black; */
+  margin: auto;
+  border-radius: 20px;
+}
+
+#content1 {
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+#content1 h2 {
+  font-size: 40px;
+  /* border: 2px solid yellow; */
+  color: rgb(32, 32, 143);
+}
+
+#content1 form {
+  /* border: 2px solid red; */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.input input {
+  padding: 10px;
+  margin: 8px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+}
+
+.success-msg {
+  padding: 10px;
+  margin: 8px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  width: 300px;
+}
+
+span {
+  color: red;
+  font-size: small;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 64px;
+  width: 60vh;
+}
+
+#checkbox {
+  width: 50%;
+}
+
+#btn {
+  width: 50%;
+}
+
+#btn button {
+  width: 50%;
+  height: 36px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(14, 184, 240, 0.863);
+  color: white;
+}
