@@ -1,0 +1,27 @@
+body {
+  background-color: mediumaquamarine;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+}
+
+.box button {
+  margin: 3px;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid mediumaquamarine;
+  background-color: transparent;
+  color: white;
+}
+.box button:hover {
+  background-color: rgb(2, 82, 82);
+}
